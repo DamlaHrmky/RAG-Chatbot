@@ -33,15 +33,15 @@ To set up and run the project locally, follow these steps:
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/rag-chatbot-with-summarization.git
-    cd rag-chatbot-with-summarization
+    git clone https://github.com/DamlaHrmky/RAG-Chatbot.git
+    cd RAG-Chatbot
     ```
 
 2. **Create a Virtual Environment**
 
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source venv/bin/activate  # On Windows use `source venv\Scripts\activate`
     ```
 
 3. **Install Dependencies**
@@ -53,7 +53,7 @@ To set up and run the project locally, follow these steps:
 4. **Run the Application**
 
     ```bash
-    streamlit run app.py
+    streamlit run my_app.py
     ```
 
 5. Open your browser and navigate to `http://127.0.0.1:8501/` to interact with the chatbot.
@@ -80,13 +80,16 @@ To set up and run the project locally, follow these steps:
 
 Here are some screenshots of the application:
 
-*Figure 1: Uploading the PDF Document*  
+*Figure 1: Chatbot Interaction Interface*  
+![Screenshot 2024-10-08 110043](https://github.com/user-attachments/assets/061dca0e-90a5-49ed-b5ff-b4fd090aece1)
 
 
-*Figure 2: Chatbot Interaction Interface*  
+*Figure 2: Choosing Summarization Method*  
+![Screenshot 2024-10-08 110115](https://github.com/user-attachments/assets/26a98242-d6d1-4f7f-889d-fea87b4e0705)
 
 
 *Figure 3: Summarization Output*  
+![Screenshot 2024-10-08 110418](https://github.com/user-attachments/assets/27f85ae5-12be-4148-8963-2e9710ed755f)
 
 
 ## License
