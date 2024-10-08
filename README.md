@@ -1,6 +1,6 @@
 # RAG Chatbot with PDF Summarization
 
-This project showcases the development of a **Retrieval Augmented Generation (RAG)** chatbot that interacts with a PDF document and summarizes large texts. It leverages **Langchain** and a large language model (LLM) like **GPT** or **Gemini** to provide accurate responses based on the document's content.
+This project showcases the development of a **Retrieval Augmented Generation (RAG)** chatbot that interacts with a PDF document and summarizes large texts. It leverages **Langchain** and a large language model (LLM) like **GPT**  to provide accurate responses based on the document's content.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ This repository contains two key projects:
 - **Chatbot Functionality**: Answers queries based on the content of a PDF document.
 - **Document Summarization**: Provides different types of summaries for large text documents, including concise and detailed summaries.
 - **PDF Chunking**: Splits large documents into smaller, manageable chunks for efficient processing.
-- **Embedding Vectors**: Generates embedding vectors for chunked documents using GPT or Gemini models.
+- **Embedding Vectors**: Generates embedding vectors for chunked documents using GPT models.
 
 ## Installation
 
@@ -65,7 +65,7 @@ To set up and run the project locally, follow these steps:
 1. **PDF Document Upload**: Upload a PDF document (e.g., [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf)).
 2. **Document Chunking**: The document is divided into smaller chunks for efficient processing.
 3. **ChromaDB Setup**: ChromaDB is used to store the embedding vectors of the chunked documents.
-4. **Embedding Vectors Creation**: Converts the chunked document into embedding vectors using GPT or Gemini models.
+4. **Embedding Vectors Creation**: Converts the chunked document into embedding vectors using GPT models.
 5. **Chatbot Interaction**: Users can ask questions, and the chatbot retrieves relevant information from ChromaDB to generate responses.
 
 ### Project 2: PDF Summarization
